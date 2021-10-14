@@ -1,8 +1,3 @@
-console.log("\nARROW FUNCTION OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // Standrad function notation
 function f(argument1, argument2 = "default_args") {
   console.log(
@@ -35,9 +30,3 @@ console.log(`[INFO] sum(10, 5): ${sum(10, 5)}`);
 // Syntax for arrow function with ONE PARAMETER and code block with ONLY return statement
 const cube = (x) => x ** 3;
 console.log(`[INFO] cube(11): ${cube(11)}`);
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");

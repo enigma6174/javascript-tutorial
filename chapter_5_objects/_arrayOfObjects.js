@@ -1,8 +1,3 @@
-console.log("ARRAY OF OBJECTS OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // An object where one of the parameters is an array of objects
 const user_johndoe = {
   username: "johndoe",
@@ -43,9 +38,3 @@ console.log(`[INFO] post_count? ${user_johndoe.getPostCount()}`);
 
 console.log("\n");
 user_johndoe.showPostData();
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");

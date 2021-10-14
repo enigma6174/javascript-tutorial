@@ -1,8 +1,3 @@
-console.log("OBJECT PROPERTIES OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // Creating a basic JavaScript object
 const user = {
   username: "johndoe",
@@ -50,9 +45,3 @@ console.log(`[INFO] premium user ? ${user[key]}`);
 // Update the variable to access another property
 key = "followers";
 console.log(`[INFO] followers count ? ${user[key]}`);
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");

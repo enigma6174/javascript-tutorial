@@ -1,8 +1,3 @@
-console.log("FOR-EACH FUNCTION OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // forEach() method is very useful for iterating
 // It needs a callback function
 
@@ -42,9 +37,3 @@ anotherArray.forEach((arrayItem, itemIndex) => {
 anotherArray.forEach((arrayItem) =>
   console.log(`[INFO] ARRAY_ITEM: ${arrayItem}`)
 );
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");

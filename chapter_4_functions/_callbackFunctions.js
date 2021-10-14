@@ -1,8 +1,3 @@
-console.log("\nCALLBACK FUNCTION OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // Pass a function as an argument
 function function1(x, y) {
   return x * y;
@@ -35,9 +30,3 @@ myFunc(function () {
   // Do something
   console.log("[INFO] Function: callback()");
 });
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");

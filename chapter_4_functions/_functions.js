@@ -1,8 +1,3 @@
-console.log("\nFUNCTION OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // This is a declared function
 function foo() {
   console.log("[INFO] Called From : foo()");
@@ -85,9 +80,3 @@ const volumeOfSquare = volume(10, areaOfSquare);
 console.log(
   `[INFO] Volume(length=13, breadth=5, height=10) = ${volumeOfSquare}`
 );
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");

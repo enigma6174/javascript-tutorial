@@ -1,8 +1,3 @@
-console.log("OBJECT METHODS OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // Creating a JavaScript object with properties and methods
 // Do not use arrow functions when defining methods
 const userObject = {
@@ -92,9 +87,3 @@ console.log(`[INFO] post_count? ${count}`);
 userObjectModified.getPosts();
 
 console.log(userObjectModified.getUserData());
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");

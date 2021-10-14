@@ -1,8 +1,3 @@
-console.log("THIS KEYWORD OUTPUTS\n");
-console.log(
-  "==============================================================================\n\n"
-);
-
 // Using 'this' keyword inside object method
 const myObject = {
   property_1: 100,
@@ -57,9 +52,3 @@ myObject.status();
 
 // This will give the context window
 myObject.wrongStatus();
-
-// End of JS file; This is just for beautification
-console.log(
-  "------------------------------------------------------------------------------"
-);
-console.log("\n");
